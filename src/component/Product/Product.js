@@ -4,10 +4,10 @@ const Product = (props) => {
   const{BookName,By,Category,img,Price}=props.product ||{}
   // console.log(props.product)
     return (
-     <div className="col-md-6 mt-5">
-       <div class="card mb-3" style={{'maxWidth': '540px'}}>
+     <div className="col-md-6 mt-4 ">
+       <div class="card mb-4" style={{'maxWidth': '590px'}}>
   <div class="row g-0">
-    <div class="col-md-5">
+    <div class="col-md-5 mx-auto">
       <img src={img} class="img-fluid rounded-start" alt="..."/>
     </div>
     <div class="col-md-7">

@@ -20,7 +20,7 @@ const Shop = () => {
     return (
         <div>
           <div className="row">
-              <div className="col-md-9">
+              <div className="col-md-9 ">
                    {/* product-load-Korbo */}
                  <div className="row">
                      {
